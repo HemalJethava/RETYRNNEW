@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877411602588",
+    "project_id": "firm-container-418411",
+    "storage_bucket": "firm-container-418411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877411602588:android:aff3d4de16e2a4fa525d59",
+        "android_client_info": {
+          "package_name": "com.retyrn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUoYbGEfSB3zzPqiDbfW2ob6YkKuy6kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

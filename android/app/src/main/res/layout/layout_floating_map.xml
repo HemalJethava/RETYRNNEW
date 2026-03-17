@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floating_map_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="8dp">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/floating_map_view"
+        android:layout_width="300dp"
+        android:layout_height="400dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:text="Close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_expand"
+            android:text="Expand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>en</string>
+		<key>CFBundleDisplayName</key>
+		<string>NxTechRetyrn</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>$(PRODUCT_NAME)</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(MARKETING_VERSION)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleURLTypes</key>
+		<array>
+			<dict>
+				<key>CFBundleTypeRole</key>
+				<string>Editor</string>
+				<key>CFBundleURLSchemes</key>
+				<array>
+					<string>retyrnapp</string>
+				</array>
+			</dict>
+		</array>
+		<key>CFBundleVersion</key>
+		<string>$(CURRENT_PROJECT_VERSION)</string>
+		<key>FirebaseAppDelegateProxyEnabled</key>
+		<false />
+		<key>GMSApiKey</key>
+		<string>AIzaSyBhlp4zmwCPjWo_O76xz2a6FMszR2lgjiA</string>
+		<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>comgooglemaps</string>
+			<string>citymapper</string>
+			<string>uber</string>
+			<string>lyft</string>
+			<string>transit</string>
+			<string>truckmap</string>
+			<string>waze</string>
+			<string>yandexnavi</string>
+			<string>moovit</string>
+			<string>yandextaxi</string>
+			<string>yandexmaps</string>
+			<string>kakaomap</string>
+			<string>tmap</string>
+			<string>szn-mapy</string>
+			<string>mapsme</string>
+			<string>osmandmaps</string>
+			<string>gett</string>
+			<string>nmap</string>
+			<string>dgis</string>
+			<string>lftgpas</string>
+			<string>sygic</string>
+		</array>
+		<key>LSRequiresIPhoneOS</key>
+		<true />
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<false />
+			<key>NSAllowsLocalNetworking</key>
+			<true />
+		</dict>
+		<key>NSAppleMusicUsageDescription</key>
+		<string>Our app does not request this permission or utilize this functionality but it is
+			included in our info.plist since our app utilizes the react-native-permissions library,
+			which references this permission in its code.</string>
+		<key>NSCalendarsUsageDescription</key>
+		<string>Our app does not request this permission or utilize this functionality but it is
+			included in our info.plist since our app utilizes the react-native-permissions library,
+			which references this permission in its code.</string>
+		<key>NSCameraUsageDescription</key>
+		<string>Allow Camera permission to scan QR codes</string>
+		<key>NSContactsUsageDescription</key>
+		<string>Our app does not request this permission or utilize this functionality but it is
+			included in our info.plist since our app utilizes the react-native-permissions library,
+			which references this permission in its code.</string>
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>We need your location to provide better service both in the foreground and
+			background.</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>We need your location to always provide navigation services.</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>We need your location to provide navigation services.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Allow Nearhood to access your microphone</string>
+		<key>NSPhotoLibraryAddUsageDescription</key>
+		<string>We need access to save downloaded images to your Photos.</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>$(PRODUCT_NAME) requires access to the photo library.</string>
+		<key>NSSiriUsageDescription</key>
+		<string>Our app does not request this permission or utilize this functionality but it is
+			included in our info.plist since our app utilizes the react-native-permissions library,
+			which references this permission in its code.</string>
+		<key>NSSpeechRecognitionUsageDescription</key>
+		<string>This app uses speech recognition to understand what you say.</string>
+		<key>NSUserTrackingUsageDescription</key>
+		<string>This identifier will be used to deliver personalized ads to you.</string>
+		<key>UIAppFonts</key>
+		<array>
+			<string>Poppins-Bold.ttf</string>
+			<string>Poppins-ExtraLight.ttf</string>
+			<string>Poppins-Light.ttf</string>
+			<string>Poppins-Medium.ttf</string>
+			<string>Poppins-Regular.ttf</string>
+			<string>Poppins-SemiBold.ttf</string>
+			<string>AntDesign.ttf</string>
+			<string>Entypo.ttf</string>
+			<string>EvilIcons.ttf</string>
+			<string>Feather.ttf</string>
+			<string>FontAwesome.ttf</string>
+			<string>FontAwesome5_Brands.ttf</string>
+			<string>FontAwesome5_Regular.ttf</string>
+			<string>FontAwesome5_Solid.ttf</string>
+			<string>FontAwesome6_Brands.ttf</string>
+			<string>FontAwesome6_Regular.ttf</string>
+			<string>FontAwesome6_Solid.ttf</string>
+			<string>Foundation.ttf</string>
+			<string>Ionicons.ttf</string>
+			<string>MaterialIcons.ttf</string>
+			<string>MaterialCommunityIcons.ttf</string>
+			<string>SimpleLineIcons.ttf</string>
+			<string>Octicons.ttf</string>
+			<string>Zocial.ttf</string>
+			<string>Fontisto.ttf</string>
+		</array>
+		<key>UIBackgroundModes</key>
+		<array>
+			<string>remote-notification</string>
+			<string>fetch</string>
+			<string>location</string>
+		</array>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UIRequiredDeviceCapabilities</key>
+		<array>
+			<string>arm64</string>
+		</array>
+		<key>UIRequiresFullScreen</key>
+		<true />
+		<key>UIStatusBarStyle</key>
+		<string></string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+
+		<key>UIViewControllerBasedStatusBarAppearance</key>
+		<false />
+		<key>UIFileSharingEnabled</key>
+		<true />
+		<key>LSSupportsOpeningDocumentsInPlace</key>
+		<true />
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true />
+			<key>NSExceptionDomains</key>
+			<dict>
+				<key>retyrn.nxtech.ai</key>
+				<dict>
+					<key>NSIncludesSubdomains</key>
+					<true />
+					<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+					<true />
+					<key>NSTemporaryExceptionMinimumTLSVersion</key>
+					<string>TLSv1.2</string>
+					<key>NSExceptionAllowsInsecureHTTPLoads</key>
+					<true />
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</plist>

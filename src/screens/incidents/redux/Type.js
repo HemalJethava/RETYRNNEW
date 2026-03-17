@@ -1,0 +1,52 @@
+// get list of states
+export const STATE_LIST_REQUEST = "STATE_LIST_REQUEST";
+export const STATE_LIST_SUCCESS = "STATE_LIST_SUCCESS";
+export const STATE_LIST_FAIL = "STATE_LIST_FAIL";
+
+// get list of vehicles
+export const VEHICLE_LIST_REQUEST = "VEHICLE_LIST_REQUEST";
+export const VEHICLE_LIST_SUCCESS = "VEHICLE_LIST_SUCCESS";
+export const VEHICLE_LIST_FAIL = "VEHICLE_LIST_FAIL";
+
+// get incidents list
+export const INCIDENT_LIST_REQUEST = "INCIDENT_LIST_REQUEST";
+export const INCIDENT_LIST_SUCCESS = "INCIDENT_LIST_SUCCESS";
+export const INCIDENT_LIST_FAIL = "INCIDENT_LIST_FAIL";
+
+// get incident details by ID
+export const INCIDENT_DETAILS_REQUEST = "INCIDENT_DETAILS_REQUEST";
+export const INCIDENT_DETAILS_SUCCESS = "INCIDENT_DETAILS_SUCCESS";
+export const INCIDENT_DETAILS_FAIL = "INCIDENT_DETAILS_FAIL";
+
+// Create incident
+export const ADD_INCIDENT_REQUEST = "ADD_INCIDENT_REQUEST";
+export const ADD_INCIDENT_SUCCESS = "ADD_INCIDENT_SUCCESS";
+export const ADD_INCIDENT_FAIL = "ADD_INCIDENT_FAIL";
+
+// Save as Draft Manual Incident
+export const SAVE_DRAFT_REQUEST = "SAVE_DRAFT_REQUEST";
+export const SAVE_DRAFT_SUCCESS = "SAVE_DRAFT_SUCCESS";
+export const SAVE_DRAFT_FAIL = "SAVE_DRAFT_FAIL";
+
+// create incident with claim talk
+export const CLAIM_TALK_REQUEST = "CLAIM_TALK_REQUEST";
+export const CLAIM_TALK_SUCCESS = "CLAIM_TALK_SUCCESS";
+export const CLAIM_TALK_FAIL = "CLAIM_TALK_FAIL";
+
+// get incidents list
+export const CLAIM_TALK_LIST_REQUEST = "CLAIM_TALK_LIST_REQUEST";
+export const CLAIM_TALK_LIST_SUCCESS = "CLAIM_TALK_LIST_SUCCESS";
+export const CLAIM_TALK_LIST_FAIL = "CLAIM_TALK_LIST_FAIL";
+
+// get driver list
+export const DRIVER_LIST_REQUEST = "DRIVER_LIST_REQUEST";
+export const DRIVER_LIST_SUCCESS = "DRIVER_LIST_SUCCESS";
+export const DRIVER_LIST_FAIL = "DRIVER_LIST_FAIL";
+
+// get incident type list
+export const INCIDENT_TYPE_LIST_REQUEST = "INCIDENT_TYPE_LIST_REQUEST";
+export const INCIDENT_TYPE_LIST_SUCCESS = "INCIDENT_TYPE_LIST_SUCCESS";
+export const INCIDENT_TYPE_LIST_FAIL = "INCIDENT_TYPE_LIST_FAIL";
+
+// Add selection
+export const FIRST_VIDEO = "FIRST_VIDEO";
